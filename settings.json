@@ -1,0 +1,89 @@
+{
+    //====================
+    // Main settings
+    //====================
+    // editor
+    "editor.fontSize": 18,
+    "editor.formatOnSave": true,
+    "editor.folding": false,
+    "editor.lineHeight": 26,
+    "editor.lineNumbers": "off",
+    "editor.matchBrackets": "never",
+    "editor.mouseWheelZoom": true,
+    "editor.fontFamily": "MesloLGS NF,Menlo, Monaco, 'Courier New', monospace",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.occurrencesHighlight": false,
+    "editor.renderLineHighlight": "none",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.hover.enabled": false,
+    "editor.lightbulb.enabled": false,
+    // zen mode
+    "zenMode.fullScreen": false,
+    "zenMode.centerLayout": false,
+    // window
+    "window.zoomLevel": 0,
+    "window.commandCenter": false,
+    // workbench
+    "workbench.sideBar.location": "right",
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.visible": false,
+    "workbench.iconTheme": null,
+    "workbench.editor.showIcons": false,
+    "workbench.statusBar.visible": false,
+    "workbench.editor.pinnedTabSizing": "compact",
+    "workbench.editor.tabSizing": "shrink",
+    "breadcrumbs.enabled": false,
+    "workbench.startupEditor": "newUntitledFile",
+    // explorer
+    "explorer.openEditors.visible": 1,
+    "explorer.confirmDragAndDrop": false,
+    // extension
+    "extensions.autoUpdate": false,
+    // search
+    "search.smartCase": true,
+    "search.useIgnoreFiles": false,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/dist": true,
+        "**/package-lock.json": true,
+        "**/yarn.lock": true,
+        "**/public/*": true,
+    },
+
+    //====================
+    // extension specifics
+    // must have extension list: Subtle Match bracket, IntelliJ IDEA Keybindings
+    //====================
+    // JS/TS
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true,
+    },
+    // Python
+    "[python]": {
+        "editor.formatOnType": true
+    },
+}
