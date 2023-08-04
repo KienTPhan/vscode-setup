@@ -16,7 +16,7 @@
     "editor.occurrencesHighlight": false,
     "editor.renderLineHighlight": "none",
     "editor.scrollbar.horizontal": "hidden",
-    "editor.hover.enabled": false,
+    "editor.hover.enabled": true,
     "editor.lightbulb.enabled": false,
     // zen mode
     "zenMode.fullScreen": false,
