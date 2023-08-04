@@ -18,6 +18,8 @@
     "editor.scrollbar.horizontal": "hidden",
     "editor.hover.enabled": true,
     "editor.lightbulb.enabled": false,
+    "editor.smoothScrolling": true,
+    "editor.cursorSurroundingLines": 20,
     // zen mode
     "zenMode.fullScreen": false,
     "zenMode.centerLayout": false,
@@ -44,46 +46,62 @@
     "search.smartCase": true,
     "search.useIgnoreFiles": false,
     "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true,
-        "**/*.code-search": true,
-        "**/dist": true,
-        "**/package-lock.json": true,
-        "**/yarn.lock": true,
-        "**/public/*": true,
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/*.code-search": true,
+      "**/dist": true,
+      "**/package-lock.json": true,
+      "**/yarn.lock": true,
+      "**/public/*": true,
+      "**/venv": true
     },
-
+  
+    // terminal
+    "terminal.integrated.fontFamily": "Inconsolata for Powerline",
+    "terminal.integrated.fontSize": 16,
+  
+    // diffEditor
+    "diffEditor.renderSideBySide": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+  
+    // auto save
+    "files.autoSave": "afterDelay",
+  
     //====================
     // extension specifics
     // must have extension list: Subtle Match bracket, IntelliJ IDEA Keybindings
     //====================
     // JS/TS
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2
     },
     "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2
     },
     "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2
     },
     "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
-        "source.fixAll.stylelint": true,
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true
     },
     // Python
     "[python]": {
-        "editor.formatOnType": true
-    },
-}
+      "editor.formatOnType": true
+    }
+  }
+  
