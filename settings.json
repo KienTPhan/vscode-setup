@@ -19,7 +19,7 @@
   "editor.hover.enabled": true,
   "editor.lightbulb.enabled": false,
   "editor.smoothScrolling": true,
-  "editor.cursorSurroundingLines": 20,
+  "editor.cursorSurroundingLines": 10,
   // zen mode
   "zenMode.fullScreen": false,
   "zenMode.centerLayout": false,
@@ -27,6 +27,7 @@
   "window.zoomLevel": 0,
   "window.commandCenter": false,
   // workbench
+  "workbench.editor.showTabs": false,
   "workbench.sideBar.location": "right",
   "workbench.layoutControl.enabled": false,
   "workbench.activityBar.visible": false,
@@ -38,7 +39,7 @@
   "breadcrumbs.enabled": false,
   "workbench.startupEditor": "newUntitledFile",
   // explorer
-  "explorer.openEditors.visible": 1,
+  "explorer.openEditors.visible": 10,
   "explorer.confirmDragAndDrop": false,
   // extension
   "extensions.autoUpdate": false,
