@@ -7,7 +7,7 @@
   "editor.formatOnSave": true,
   "editor.folding": false,
   "editor.lineHeight": 26,
-  "editor.lineNumbers": "off",
+  "editor.lineNumbers": "on",
   "editor.matchBrackets": "never",
   "editor.mouseWheelZoom": true,
   "editor.fontFamily": "MesloLGS NF,Menlo, Monaco, 'Courier New', monospace",
