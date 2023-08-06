@@ -27,7 +27,7 @@
   "window.zoomLevel": 0,
   "window.commandCenter": false,
   // workbench
-  "workbench.editor.showTabs": false,
+  "workbench.editor.showTabs": true,
   "workbench.sideBar.location": "right",
   "workbench.layoutControl.enabled": false,
   "workbench.activityBar.visible": false,
